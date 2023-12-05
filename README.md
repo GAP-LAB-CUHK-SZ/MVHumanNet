@@ -3,7 +3,7 @@
 
 <img src="./figures/teaser_.png" width="1080"/>
 
-by Zhangyang_Xiong#, Chenghong Li#, Kenkun Liu#, Hongjie Liao, Jianqiao Hu, Junyi Zhu, Shuliang Ning, Lingteng Qiu, Chongjie Wang, Shijie Wang, 
+by Zhangyang Xiong#, Chenghong Li#, Kenkun Liu#, Hongjie Liao, Jianqiao Hu, Junyi Zhu, Shuliang Ning, Lingteng Qiu, Chongjie Wang, Shijie Wang, 
 Shuguang Cui and [Xiaoguang Han*](https://gaplab.cuhk.edu.cn/) from [GAP-Lab](https://gaplab.cuhk.edu.cn/). 
 
 
