@@ -19,11 +19,12 @@ MVHumanNet contains **4,500** human identities,  **9,000** daily outfits,  **60,
 
 If you find our work useful in your research, please consider citing:
 ```
-@inproceedings{xiong2024mvhumannet,
+@article{xiong2024mvhumannet,
     title     = MVHumanNet: A Large-scale Dataset of Multi-view Daily Dressing Human Captures },
     author    = {Zhangyang Xiong, Chenghong Li, Kenkun Liu, Hongjie Liao, Jianqiao HU, Junyi Zhu, Shuliang Ning, Lingteng Qiu, Chongjie Wang, Shijie Wang, Shuguang Cui and Xiaoguang Han
 },
-    booktitle = {Arxiv}
+    journal={arXiv preprint},
+    year={2023}
 }
 ```
 
