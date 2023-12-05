@@ -1,8 +1,8 @@
 # MVHumanNet: A Large-scale Dataset of Multi-view Daily<br> Dressing Human Captures 
-
 <img src="./figures/teaser_.png" width="1080"/>
+
 by Zhangyang_Xiong#, Chenghong Li#, Kenkun Liu#, Hongjie Liao, Jianqiao Hu, Junyi Zhu, Shuliang Ning, Lingteng Qiu, Chongjie Wang, Shijie Wang, 
-Shuguang Cui and [Xiaoguang Han*](https://gaplab.cuhk.edu.cn/) from [GAP-Lab](https://gaplab.cuhk.edu.cn/).
+Shuguang Cui and [Xiaoguang Han*](https://gaplab.cuhk.edu.cn/) from [GAP-Lab](https://gaplab.cuhk.edu.cn/). 
 
 ## [Project Page](https://x-zhangyang.github.io/2024_MVHumanNet/) | [Paper](https://x-zhangyang.github.io/2024_MVHumanNet/) | [Dataset (Coming soon)](https://github.com/GAP-LAB-CUHK-SZ/2024_MVHumanNet/)
 
