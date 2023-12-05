@@ -1,17 +1,43 @@
-# MVHumanNet
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
+# MVHumanNet: A Large-scale Dataset of Multi-view Daily<br> Dressing Human Captures 
+
+<img src="./figures/teaser_.png" width="1080"/>
+by Zhangyang_Xiong#, Chenghong Li#, Kenkun Liu#, Hongjie Liao, Jianqiao Hu, Junyi Zhu, Shuliang Ning, Lingteng Qiu, Chongjie Wang, Shijie Wang, 
+Shuguang Cui and [Xiaoguang Han*](https://gaplab.cuhk.edu.cn/) from [GAP-Lab](https://gaplab.cuhk.edu.cn/).
+
+## [Project Page](https://x-zhangyang.github.io/2024_MVHumanNet/) | [Paper](https://x-zhangyang.github.io/2024_MVHumanNet/) | [Dataset (Coming soon)](https://github.com/GAP-LAB-CUHK-SZ/2024_MVHumanNet/)
+
+## Introduction
+This repository is built for:
+
+**MVHumanNet**: A Large-scale Dataset of Multi-view Daily Dressing Human Captures [[arXiv](http://arxiv.org/)]
 
 
-## [Project Page](https://x-zhangyang.github.io/2024_MVHumanNet/) | [Paper](https://x-zhangyang.github.io/2024_MVHumanNet/) | [Data (Coming soon)](https://github.com/GAP-LAB-CUHK-SZ/2024_MVHumanNet/)
+MVHumanNet contains **4,500** human identities,  **9,000** daily outfits,  **60,000** motion sequences,  **645 million** with extensive annotations, including human masks, camera parameters , 2D and 3D keypoints, SMPL/SMPLX parameters, and corresponding textual descriptions.
+
+We will provide links to download the full data.
+
+More information will coming soon!!!
 
 
-This is the homepage of [MVHumanNet](https://github.com/GAP-LAB-CUHK-SZ/2024_MVHumanNet/).
+
+If you find our work useful in your research, please consider citing:
+```
+@inproceedings{xiong2024mvhumannet,
+    title     = MVHumanNet: A Large-scale Dataset of Multi-view Daily Dressing Human Captures },
+    author    = {Zhangyang Xiong, Chenghong Li, Kenkun Liu, Hongjie Liao, Jianqiao HU, Junyi Zhu, Shuliang Ning, Lingteng Qiu, Chongjie Wang, Shijie Wang, Shuguang Cui and Xiaoguang Han
+},
+    booktitle = {Arxiv}
+}
+```
 
 
 
-## TODO:triangular_flag_on_post:
+## License
 
-- [ ] Release datasets
+The data is released under the MVHumanNet Terms of Use, and the code is released under the Attribution-NonCommercial 4.0 International License.
+
+Copyright (c) 2024
+
 
 
 
