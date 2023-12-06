@@ -1,5 +1,5 @@
 # MVHumanNet: A Large-scale Dataset of Multi-view Daily<br> Dressing Human Captures 
-## [Project Page](https://x-zhangyang.github.io/MVHumanNet/) | [Paper (Arxiv)](https://x-zhangyang.github.io/MVHumanNet/) | [Dataset (Coming soon)](https://github.com/GAP-LAB-CUHK-SZ/MVHumanNet/)
+## [Project Page](https://x-zhangyang.github.io/MVHumanNet/) | [Paper (Arxiv)](https://arxiv.org/abs/2312.02963) | [Dataset (Coming soon)](https://github.com/GAP-LAB-CUHK-SZ/MVHumanNet/)
 
 <img src="./figures/teaser_.png" width="1080"/>
 
