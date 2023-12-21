@@ -14,8 +14,8 @@ MVHumanNet contains **4,500** human identities,  **9,000** daily outfits,  **60,
 
 
 
-## 100 samples of MVHumanNet are available now！！！
-These samples contains **100** outfits, each outfit contains 6+1 motions sequences. 
+##  Samples of MVHumanNet are available now！！！
+These samples contain **100** outfits, with 6+1 motions sequences for each. 
 
 We provide a link to download the samples. Please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSeI5ywaBKgbmIBajuXGyo_u8F3nJIANMFww9tr9f0ylecSUuw/viewform?usp=sf_link) to get the download link.
 
