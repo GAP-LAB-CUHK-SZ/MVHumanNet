@@ -1,26 +1,25 @@
 import numpy as np
 import os
-import sys
+#import sys
 import torch
 import smplx
 import pickle
 
 from scipy.spatial.transform import Rotation
-# import pickle
+#import pickle
 import cv2
 from utils_mvhuman import rotation_matrix_to_angle_axis, transform_can_smpl
 # import SMPL
-# import json
+#import json
 
 model_smplx = smplx.create(os.path.expanduser(r"smpl_\SMPL_NEUTRAL.pkl"),model_type="smplx",)
 
 model_smpl = smplx.create(os.path.expanduser(r"smpl_\SMPL_NEUTRAL.pkl"), model_type="smpl",)
 
 
-pkl_path = r'000075.pkl'
+pkl_path = r'data/000075.pkl'
 name = os.path.split(pkl_path)[1][:-4]
-# with open(pkl_path, 'rb') as f:
-#     smpl_dict = pickle.load(f)
+
 
 smpl_param_path = pkl_path
 with open(smpl_param_path, 'rb') as f: 
