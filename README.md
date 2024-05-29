@@ -15,13 +15,15 @@ MVHumanNet contains **4,500** human identities,  **9,000** daily outfits,  **60,
 **The rest data will be available soon.**
 
 ## Updates （MVHumanNet_Part1 is available now!）
+- 2024.05.29: **Script for downloading MVHumanNet**
+  > We provide the [script](https://github.com/GAP-LAB-CUHK-SZ/MVHumanNet/blob/main/download_tool_mvhuman.py) to download all the contents of the dataset. Before using it, please make sure you have filled out our form and obtained the download links.
+
 - 2024.05.24: Textual descriptions of MVHumanNet are released! [Textual descriptions](https://github.com/GAP-LAB-CUHK-SZ/MVHumanNet/tree/main/textual_description):fire::fire::fire::fire::fire::fire::fire:
 
-- 2024.05.07: MVHumanNet_Part1 is released! :fire::fire::fire::fire::fire::fire::fire:
+- 2024.05.07: **MVHumanNet_Part1 is released!** :fire::fire::fire::fire::fire::fire::fire:
   > MVHumanNet_Part1 contains about **2500** IDs and **4800** outfits.
   > We provide links to download the MVHumanNet_Part1. Please fill out the [form](https://docs.google.com/forms/d/1pN5JoMj9HgvVrWY_U4mJlmoQHXLPRHwVa6PRlAhLRDs) to get the download links.
-
-
+  
 
 - 2023.12.20 Samples of MVHumanNet are available now！！！
   > These samples contain **100** outfits, with 6+1 motions sequences for each. 
