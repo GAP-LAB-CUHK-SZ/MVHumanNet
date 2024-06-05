@@ -148,6 +148,75 @@ def read_camera(intri_name, extri_name, cam_names=[]):
     return cams
 
 
+
+
+def read_camera_mvhumannet(intri_name, extri_name, camera_scale ,cam_names=[]):
+    assert os.path.exists(intri_name), intri_name
+    assert os.path.exists(extri_name), extri_name
+
+    import json
+
+    with open(intri_name, 'r') as f:
+        camera_intrinsics = json.load(f)
+
+    with open(extri_name, 'r') as f:
+        camera_extrinsics = json.load(f)
+        
+    print("intri: ", camera_intrinsics)
+
+    item = os.path.dirname(intri_name).split("/")[-1]
+    print("item: ", item)
+    # intri = FileStorage(intri_name)
+    # extri = FileStorage(extri_name)
+    cams, P = {}, {}
+
+    # cam_names = intri.read('names', dt='list')
+
+    cam_names = camera_extrinsics.keys()
+
+    for cam in cam_names:
+        # 内参只读子码流的
+        
+        updated_cam = cam.split('.')[0].split('_')
+        # print("updated_cam_before: ", updated_cam)
+        # updated_cam[1] = 'cache'   # for test
+        updated_cam = updated_cam[-1]
+        # print("updated_cam_after: ", updated_cam)
+
+        cams[updated_cam] = {}
+        # cams[updated_cam]['K'] = intri.read('K_{}'.format( cam))
+        cams[updated_cam]['K'] = np.array(camera_intrinsics['intrinsics'])
+        cams[updated_cam]['invK'] = np.linalg.inv(cams[updated_cam]['K'])
+
+        # import IPython; IPython.embed(); exit()
+
+        # Rvec = extri.read('R_{}'.format(cam))
+        # Tvec = extri.read('T_{}'.format(cam))
+        # assert Rvec is not None, cam
+        # R = cv2.Rodrigues(Rvec)[0]
+
+        R = np.array(camera_extrinsics[cam]['rotation']) 
+        #  longgang
+        # Tvec = np.array(camera_extrinsics[cam]['translation'])[:, None] / 1000 * 100 / 65
+        # futian
+        Tvec = np.array(camera_extrinsics[cam]['translation'])[:, None] / 1000 * camera_scale
+
+        RT = np.hstack((R, Tvec))
+
+        cams[updated_cam]['RT'] = RT
+        cams[updated_cam]['R'] = R
+        # cams[updated_cam]['Rvec'] = Rvec
+        cams[updated_cam]['T'] = Tvec
+        # cams[updated_cam]['center'] = - Rvec.T @ Tvec
+        P[updated_cam] = cams[updated_cam]['K'] @ cams[updated_cam]['RT']
+        cams[updated_cam]['P'] = P[updated_cam]
+
+        # cams[updated_cam]['dist'] = np.array(camera_intrinsics['dist'])
+        cams[updated_cam]['dist'] = None   # dist for cv2.undistortPoint
+    # cams['basenames'] = cam_names
+    return cams
+
+
 def read_camera_ours(intri_name, extri_name, cam_names=[]):
     assert os.path.exists(intri_name), intri_name
     assert os.path.exists(extri_name), extri_name
