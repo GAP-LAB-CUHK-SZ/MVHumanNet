@@ -18,12 +18,6 @@ extri_name =  r'data/camera_extrinsics.json'
 camera_render_list = ["CC32871A059",]
 camera_scale_fn = r'data/camera_scale.pkl'
 
-# camera_render_list = ["22236230",]
-# img_path =  r'E:\Program_4Dhuman_release\lg_samples_203331\203331\images_lr\22236230\0005_img.jpg'
-# obj_path = r'E:\Program_4Dhuman_release\lg_samples_203331\203331\smplx\smplx_mesh\000000.obj'
-# intri_name = r'E:\Program_4Dhuman_release\lg_samples_203331\203331\camera_intrinsics.json'
-# extri_name =  r'E:\Program_4Dhuman_release\lg_samples_203331\203331\camera_extrinsics.json'
-# camera_scale_fn = r'E:\Program_4Dhuman_release\lg_samples_203331\203331\camera_scale.pkl'
 
 
 
