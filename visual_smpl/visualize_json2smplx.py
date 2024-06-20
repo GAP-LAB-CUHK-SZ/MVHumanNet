@@ -96,9 +96,12 @@ smpl_img_re_mask = 1- smpl_img_re[:,:,3:4]/255
 # # smpl_img_re_mask
 # plt.imshow(smpl_img_re_mask)
 
-plt.imshow((data_images*smpl_img_re_mask +smpl_img_re[:,:,:3]).astype("uint8"))
+img_output = (data_images*smpl_img_re_mask +smpl_img_re[:,:,:3]).astype("uint8")
 
-        
+# plt.imshow((data_images*smpl_img_re_mask +smpl_img_re[:,:,:3]).astype("uint8"))
+name = "json2smplx.jpg"
+plt.imsave(name, img_output)
+                
         
         
         
