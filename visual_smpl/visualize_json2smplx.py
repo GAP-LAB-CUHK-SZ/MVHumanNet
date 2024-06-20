@@ -1,3 +1,7 @@
+''' 
+1. Download SMPLX_NEUTRAL.pkl(about 518 mb) from https://github.com/vchoutas/smplx#downloading-the-model). 
+2. Put SMPLX_NEUTRAL.pkl to the path of "\smpl_\smplx"
+'''
 
 import os
 import cv2
