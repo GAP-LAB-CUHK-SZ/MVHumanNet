@@ -1,4 +1,4 @@
-# MVHumanNet: A Large-scale Dataset of Multi-view Daily<br> Dressing Human Captures 
+# MVHumanNet: A Large-scale Dataset of Multi-view Daily<br> Dressing Human Captures (CVPR 2024)
 ## [Project Page](https://x-zhangyang.github.io/MVHumanNet/) | [Paper (Arxiv)](https://arxiv.org/abs/2312.02963) | [Dataset](https://github.com/GAP-LAB-CUHK-SZ/MVHumanNet/)
 
 <img src="./figures/teaser_.png" width="1080"/>
@@ -13,8 +13,14 @@ Shuguang Cui and [Xiaoguang Han*](https://gaplab.cuhk.edu.cn/) from [GAP-Lab](ht
 MVHumanNet contains **4,500** human identities,  **9,000** daily outfits,  **60,000** motion sequences,  **645 million** with extensive annotations, including human masks, camera parameters , 2D and 3D keypoints, SMPL/SMPLX parameters, and corresponding textual descriptions.
 
 **The rest data will be available soon.**
+## Updates （MVHumanNet_Part1 and MVHumanNet_Part2 are available now!）
 
-## Updates （MVHumanNet_Part1 is available now!）
+- 2024.06.21: **MVHumanNet_Part2 is released!** :fire::fire::fire::fire::fire::fire::fire:
+  > We provide links to download MVHumanNet data. Please fill this [form](https://forms.gle/a4DXEyoFcQEHoRjx7) to get the download all links (you don't need to fill the previous forms).
+  > 
+  > Currently MVHumanNet_Part1 and MVHumanNet_Part2 contain about **4000** IDs and **8000** outfits. The rest of the data will be updated to the same links later.
+  
+
 - 2024.05.29: **Script for downloading MVHumanNet**
   > We provide the [script](https://github.com/GAP-LAB-CUHK-SZ/MVHumanNet/blob/main/download_tool_mvhuman.py) to download all the contents of the dataset. Before using it, please make sure you have filled out our form and obtained the download links.
 
