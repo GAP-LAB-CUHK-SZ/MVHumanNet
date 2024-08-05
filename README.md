@@ -18,7 +18,7 @@ MVHumanNet contains **4,500** human identities,  **9,000** daily outfits,  **60,
 - 2024.06.21: **MVHumanNet_Part2 is released!** :fire::fire::fire::fire::fire::fire::fire:
   > We provide links to download MVHumanNet data. Please fill this [form](https://forms.gle/a4DXEyoFcQEHoRjx7) to get the download all links (you don't need to fill the previous forms).
   > 
-  > Currently MVHumanNet_Part1 and MVHumanNet_Part2 contain about **4000** IDs and **8000** outfits. The rest of the data will be updated to the same links later.
+  > Currently, MVHumanNet_Part1 and MVHumanNet_Part2 together contain approximately **4000** IDs and **8000** outfits. The remaining data will be updated to the same links at a later time.
   
 
 - 2024.05.29: **Script for downloading MVHumanNet**
