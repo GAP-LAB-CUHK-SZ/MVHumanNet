@@ -12,7 +12,7 @@ Shuguang Cui and [Xiaoguang Han*](https://gaplab.cuhk.edu.cn/) from [GAP-Lab](ht
 
 MVHumanNet contains **4,500** human identities,  **9,000** daily outfits,  **60,000** motion sequences,  **645 million** with extensive annotations, including human masks, camera parameters , 2D and 3D keypoints, SMPL/SMPLX parameters, and corresponding textual descriptions.
 
-## Updates （MVHumanNet_Part1 and MVHumanNet_Part2 are available now!）
+## Updates (MVHumanNet_Part1 and MVHumanNet_Part2 are available now!)
 
 - 2024.06.21: **MVHumanNet_Part2 is released!** :fire::fire::fire::fire::fire::fire::fire:
   > We provide links to download MVHumanNet data. Please fill this [form](https://forms.gle/a4DXEyoFcQEHoRjx7) to get the download all links (you don't need to fill the previous forms).
