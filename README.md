@@ -12,7 +12,6 @@ Shuguang Cui and [Xiaoguang Han*](https://gaplab.cuhk.edu.cn/) from [GAP-Lab](ht
 
 MVHumanNet contains **4,500** human identities,  **9,000** daily outfits,  **60,000** motion sequences,  **645 million** with extensive annotations, including human masks, camera parameters , 2D and 3D keypoints, SMPL/SMPLX parameters, and corresponding textual descriptions.
 
-**The rest data will be available soon.**
 ## Updates （MVHumanNet_Part1 and MVHumanNet_Part2 are available now!）
 
 - 2024.06.21: **MVHumanNet_Part2 is released!** :fire::fire::fire::fire::fire::fire::fire:
@@ -84,12 +83,12 @@ MVHumanNet contains **4,500** human identities,  **9,000** daily outfits,  **60,
 
 If you find our work useful in your research, please consider citing:
 ```
-@article{xiong2023mvhumannet,
-    title     = MVHumanNet: A Large-scale Dataset of Multi-view Daily Dressing Human Captures },
-    author    = {Zhangyang Xiong, Chenghong Li, Kenkun Liu, Hongjie Liao, Jianqiao HU, Junyi Zhu, Shuliang Ning, Lingteng Qiu, Chongjie Wang, Shijie Wang, Shuguang Cui and Xiaoguang Han
-},
-    journal={arXiv preprint},
-    year={2023}
+@inproceedings{xiong2024mvhumannet,
+  title={MVHumanNet: A Large-scale Dataset of Multi-view Daily Dressing Human Captures},
+  author={Xiong, Zhangyang and Li, Chenghong and Liu, Kenkun and Liao, Hongjie and Hu, Jianqiao and Zhu, Junyi and Ning, Shuliang and Qiu, Lingteng and Wang, Chongjie and Wang, Shijie and others},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={19801--19811},
+  year={2024}
 }
 ```
 
