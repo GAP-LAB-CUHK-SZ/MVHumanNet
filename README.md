@@ -75,7 +75,7 @@ MVHumanNet contains **4,500** human identities,  **9,000** daily outfits,  **60,
                 |-- obj files  # smplx meshs
         |-- camera_extrinsics.json   # extrinsics of all cameras
         |-- camera_intrinsics.json   # intrinsics of all cameras
-        |-- camera_scale.pkl   #       ◊
+        |-- camera_scale.pkl
 
 ```
 
