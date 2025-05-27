@@ -23,7 +23,7 @@ MVHumanNet contains **4,500** human identities,  **9,000** daily outfits,  **60,
   
 
 - 2024.05.29: **Script for downloading MVHumanNet**
-  > We provide the [script](https://github.com/GAP-LAB-CUHK-SZ/MVHumanNet/blob/main/download_tool_mvhuman.py) to download all the contents of the dataset. Before using it, please make sure you have filled out our form and obtained the download links.
+  > We provide the [script](https://github.com/GAP-LAB-CUHK-SZ/MVHumanNet/blob/main/download_tool_mvhuman.py) to download all the contents of the dataset. Before using it, please make sure you have filled out our form and obtained the download links. (Thanks @[antonzub99](https://github.com/antonzub99) for fixing the downloading scripts.)
 
 - 2024.05.24: Textual descriptions of MVHumanNet are released! [Textual descriptions](https://github.com/GAP-LAB-CUHK-SZ/MVHumanNet/tree/main/textual_description):fire::fire::fire::fire::fire::fire::fire:
 
